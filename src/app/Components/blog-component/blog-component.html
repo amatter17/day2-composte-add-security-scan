@@ -1,0 +1,60 @@
+<div class="px-4 md:px-6 py-12 md:py-20 bg-gradient-to-b from-white to-gray-50">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-16">
+      <span class="inline-block bg-emerald-100 text-emerald-700 px-4 py-2 rounded-full text-sm font-semibold mb-4 animate-pulse-slow">
+        {{ 'blog.badge' | translate }}
+      </span>
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up">
+        {{ 'blog.title' | translate }}
+      </h2>
+      <p class="text-gray-600 max-w-2xl mx-auto animate-fade-in-up delay-100">
+        {{ 'blog.subtitle' | translate }}
+      </p>
+      <div class="h-1 w-20 bg-gradient-to-r from-[#0e4d3a] to-emerald-500 mx-auto mt-6 rounded-full"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="card-hover group bg-white rounded-2xl shadow-lg overflow-hidden animate-fade-in-up delay-100">
+        <div class="bg-gradient-to-r from-[#a91b29] to-red-500 text-white p-5 font-bold text-lg relative overflow-hidden">
+          <span class="relative z-10">{{ 'blog.feature1.badge' | translate }}</span>
+          <div class="absolute top-0 end-0 w-20 h-20 bg-white/10 rounded-full -translate-y-1/2 -translate-x-1/2 group-hover:scale-150 transition-transform duration-500"></div>
+        </div>
+        <div class="p-8 text-center">
+          <div class="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🔍</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">{{ 'blog.feature1.title' | translate }}</h3>
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'blog.feature1.desc' | translate }}
+          </p>
+        </div>
+      </div>
+
+      <div class="card-hover group bg-white rounded-2xl shadow-lg overflow-hidden animate-fade-in-up delay-200 md:-translate-y-4">
+        <div class="bg-gradient-to-r from-[#0e4d3a] to-emerald-600 text-white p-5 font-bold text-lg relative overflow-hidden">
+          <span class="relative z-10">{{ 'blog.feature2.badge' | translate }}</span>
+          <div class="absolute top-0 end-0 w-20 h-20 bg-white/10 rounded-full -translate-y-1/2 -translate-x-1/2 group-hover:scale-150 transition-transform duration-500"></div>
+        </div>
+        <div class="p-8 text-center">
+          <div class="text-6xl mb-6 group-hover:rotate-12 transition-transform duration-300">⚙️</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">{{ 'blog.feature2.title' | translate }}</h3>
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'blog.feature2.desc' | translate }}
+          </p>
+        </div>
+      </div>
+
+      <div class="card-hover group bg-white rounded-2xl shadow-lg overflow-hidden animate-fade-in-up delay-300">
+        <div class="bg-gradient-to-r from-[#a91b29] to-red-500 text-white p-5 font-bold text-lg relative overflow-hidden">
+          <span class="relative z-10">{{ 'blog.feature3.badge' | translate }}</span>
+          <div class="absolute top-0 end-0 w-20 h-20 bg-white/10 rounded-full -translate-y-1/2 -translate-x-1/2 group-hover:scale-150 transition-transform duration-500"></div>
+        </div>
+        <div class="p-8 text-center">
+          <div class="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">💊</div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">{{ 'blog.feature3.title' | translate }}</h3>
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'blog.feature3.desc' | translate }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
